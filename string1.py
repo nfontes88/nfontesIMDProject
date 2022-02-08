@@ -4,6 +4,7 @@ import secrets
 from numpy import arange
 
 
+# comment to test workflow
 def main():
     url = "https://imdb-api.com/api#Top250TVs-header"
     api_key = "k_vn1z1026"
@@ -39,10 +40,3 @@ with open("output_data.csv", "w") as out_file:
         out_string = "," + (top_250tvs[i])
         out_string += "\n"
         out_file.write(out_string)
-
-
-
-
-
-
-
